@@ -1,9 +1,16 @@
 {
+    "name": "shizhice/phalcon-api",
+    "authors": [
+        {
+            "name": "shizhice",
+            "email": "shizc@gmail.com"
+        }
+    ],
+    "type": "project",
     "autoload": {
         "files": ["bootstrap/helper.php"],
         "psr-4": {}
     },
-    "type": "project",
     "scripts": {
         "post-install-cmd": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
